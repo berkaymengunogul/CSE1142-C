@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/berkay/CLionProjects/CSE1142/HW3/150119934HW3.c
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+
