@@ -112,16 +112,17 @@ unsigned int findScore(String *s1){
     return score;
 }
 int main(void){
-    FILE *fPtr;
+    FILE *inputFilePtr;
     // file opened here, if succeed operations will continue
-    if ((fPtr = fopen("input.txt", "r")) !=NULL){
+    if ((inputFilePtr = fopen("input.txt", "r")) !=NULL){
         char input[100];
         char *tokenSentence, *tokenInstructions;
         int numOfWords = 0, index;
         long int lenInput = 0;
 
-        while (!feof(fPtr)) {
-            fscanf(fPtr, "%[^\n]\n", input);
+        while (!feof(inputFilePtr)) {
+            fscanf(inputFilePtr, "%[^\n]\n", input);
+
 
             tokenSentence = strtok(input, ":"); // Sentence is read till ":"
             tokenInstructions = strtok(NULL, ","); // Part after the ":" stored here
@@ -131,52 +132,55 @@ int main(void){
             strcpy((*node).data, tokenSentence);
             (*node).len = strlen(tokenSentence);
 
-            if (strcmp(tokenInstructions, "1") == 0){
+            String *string1 = malloc(sizeof(String));
+
+            if (strcmp(input, "stat") == 0) {
+                printf("The number of words: %d\n", numOfWords);
+                printf("The number of alphabetic letters: %lu\n", lenInput);
+            }else if((strcmp(input, "exit") == 0) || (strcmp(input, "quit") == 0)){
+                printf("Program ends. Bye\n");
+            }else if (strcmp(tokenInstructions, "1") == 0){
                 int result = charAt(node, atoi(strtok(NULL, ",")));
                 printf("%c\n", result);
             }else if(strcmp(tokenInstructions, "2") == 0){
-                String *string1 = malloc(sizeof(String));
                 strcpy((*string1).data, strtok(NULL, ","));
                 (*string1).len = strlen(string1->data);
                 printf("%s\n", (*concat(node, string1)).data);
+                tokenInstructions = strtok(NULL, ",");
             }else if(strcmp(tokenInstructions, "3") == 0){
-                String *string1 = malloc(sizeof(String));
                 strcpy((*string1).data, strtok(NULL, ","));
                 (*string1).len = strlen(string1->data);
                 printf("%d\n", strSearch(node, string1));
-            }//TODO finish state and exit part
-            else if(strcmp(tokenInstructions, "4") == 0){
+                tokenInstructions = strtok(NULL, ",");
+            }else if(strcmp(tokenInstructions, "4") == 0){
                 printf("%d\n", findScore(node));
-            }else if (strcmp(input, "stat") == 0){
-                printf("The number of words: %d\n", numOfWords);
-                printf("The number of alphabetic letters: %lu\n", lenInput);
-            }else{
-                numOfWords = 0;
-                lenInput = 0;
-                char *token = strtok(input, " ");
-                while(token != NULL){
-                    for(index = 0; index<strlen(token); index++){
-                        if(isalpha(token[index])){
-                            lenInput++;
-                        }
-                    }
-                    numOfWords++;
-                    token = strtok(NULL, " ");
-                }
             }
-//            free(node);
-//            free(string1);
+            char *tokenState = strtok(tokenSentence, " ");
+            while(tokenState != NULL){
+                for(index = 0; index<strlen(tokenState); index++){
+                    if(isalpha(tokenState[index])){
+                        lenInput++;
+                    }
+                }
+                numOfWords++;
+                tokenState = strtok(NULL, " ");
+            }
+            tokenState = strtok(string1->data, " ");
+            while(tokenState != NULL){
+                for(index = 0; index<strlen(tokenState); index++){
+                    if(isalpha(tokenState[index])){
+                        lenInput++;
+                    }
+                }
+                numOfWords++;
+                tokenState = strtok(NULL, ",");
+            }
+            free(node);
+            free(string1);
         }
-
-//        while (tokenInstructions != NULL){
-//            printf("%s\n", tokenInstructions);
-//            tokenInstructions = strtok(NULL, ",");
-//        }
-
-        fclose(fPtr);
+        fclose(inputFilePtr);
     }else{
         printf("error");
     }
-
     return 0;
 }
