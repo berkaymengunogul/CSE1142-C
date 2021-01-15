@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/HW3.dir/DependInfo.cmake"
   "CMakeFiles/CSE1142.dir/DependInfo.cmake"
+  "CMakeFiles/HW3.dir/DependInfo.cmake"
+  "CMakeFiles/HW4.dir/DependInfo.cmake"
   )

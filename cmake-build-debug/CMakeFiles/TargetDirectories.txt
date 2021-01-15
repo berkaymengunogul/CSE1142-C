@@ -1,4 +1,5 @@
 /home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/HW3.dir
 /home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/CSE1142.dir
+/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/HW3.dir
+/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/HW4.dir
+/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CSE1142
+
+# Build rule for target.
+CSE1142: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CSE1142
+.PHONY : CSE1142
+
+# fast build rule for target.
+CSE1142/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE1142.dir/build.make CMakeFiles/CSE1142.dir/build
+.PHONY : CSE1142/fast
+
+#=============================================================================
 # Target rules for targets named HW3
 
 # Build rule for target.
@@ -144,17 +157,17 @@ HW3/fast:
 .PHONY : HW3/fast
 
 #=============================================================================
-# Target rules for targets named CSE1142
+# Target rules for targets named HW4
 
 # Build rule for target.
-CSE1142: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CSE1142
-.PHONY : CSE1142
+HW4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW4
+.PHONY : HW4
 
 # fast build rule for target.
-CSE1142/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE1142.dir/build.make CMakeFiles/CSE1142.dir/build
-.PHONY : CSE1142/fast
+HW4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
+.PHONY : HW4/fast
 
 HW3/150119934HW3.o: HW3/150119934HW3.c.o
 
@@ -182,6 +195,33 @@ HW3/150119934HW3.s: HW3/150119934HW3.c.s
 HW3/150119934HW3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/150119934HW3.c.s
 .PHONY : HW3/150119934HW3.c.s
+
+HW4/150119934HW4.o: HW4/150119934HW4.c.o
+
+.PHONY : HW4/150119934HW4.o
+
+# target to build an object file
+HW4/150119934HW4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/150119934HW4.c.o
+.PHONY : HW4/150119934HW4.c.o
+
+HW4/150119934HW4.i: HW4/150119934HW4.c.i
+
+.PHONY : HW4/150119934HW4.i
+
+# target to preprocess a source file
+HW4/150119934HW4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/150119934HW4.c.i
+.PHONY : HW4/150119934HW4.c.i
+
+HW4/150119934HW4.s: HW4/150119934HW4.c.s
+
+.PHONY : HW4/150119934HW4.s
+
+# target to generate assembly for a file
+HW4/150119934HW4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/150119934HW4.c.s
+.PHONY : HW4/150119934HW4.c.s
 
 main.o: main.c.o
 
@@ -220,9 +260,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CSE1142"
 	@echo "... HW3"
+	@echo "... HW4"
 	@echo "... HW3/150119934HW3.o"
 	@echo "... HW3/150119934HW3.i"
 	@echo "... HW3/150119934HW3.s"
+	@echo "... HW4/150119934HW4.o"
+	@echo "... HW4/150119934HW4.i"
+	@echo "... HW4/150119934HW4.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
