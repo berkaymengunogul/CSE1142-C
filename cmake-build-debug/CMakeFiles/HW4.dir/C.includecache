@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skynet/CLionProjects/CSE1142-C/HW4/150119934HW4.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+

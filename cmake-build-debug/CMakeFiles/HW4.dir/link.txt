@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/HW4.dir/HW4/150119934HW4.c.o  -o HW4 
