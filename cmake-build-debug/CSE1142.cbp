@@ -8,160 +8,166 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CSE1142">
-				<Option output="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CSE1142" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSE1142"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CSE1142/fast">
-				<Option output="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/CSE1142" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSE1142/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="HW3">
-				<Option output="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="HW3/fast">
-				<Option output="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HW4">
-				<Option output="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/HW4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
+				<Option output="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/HW4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW4"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HW4/fast">
-				<Option output="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/HW4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
+				<Option output="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/HW4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW4/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3">
+				<Option output="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3/fast">
+				<Option output="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/skynet/CLionProjects/CSE1142-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSE1142">
+				<Option output="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/CSE1142" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSE1142"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSE1142/fast">
+				<Option output="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/CSE1142" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/berkay/CLionProjects/CSE1142/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSE1142/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/berkay/CLionProjects/CSE1142/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/skynet/CLionProjects/CSE1142-C/HW3/150119934HW3.c">
+		<Unit filename="/Users/berkay/CLionProjects/CSE1142/HW3/150119934HW3.c">
 			<Option target="HW3"/>
 		</Unit>
-		<Unit filename="/home/skynet/CLionProjects/CSE1142-C/HW4/150119934HW4.c">
+		<Unit filename="/Users/berkay/CLionProjects/CSE1142/HW4/150119934HW4.c">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/home/skynet/CLionProjects/CSE1142-C/main.c">
+		<Unit filename="/Users/berkay/CLionProjects/CSE1142/main.c">
 			<Option target="CSE1142"/>
 		</Unit>
-		<Unit filename="/home/skynet/CLionProjects/CSE1142-C/CMakeLists.txt">
+		<Unit filename="/Users/berkay/CLionProjects/CSE1142/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

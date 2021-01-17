@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/skynet/CLionProjects/CSE1142-C/HW4/150119934HW4.c
+/Users/berkay/CLionProjects/CSE1142/HW4/150119934HW4.c
 stdio.h
 -
 string.h
